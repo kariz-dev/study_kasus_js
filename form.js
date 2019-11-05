@@ -35,6 +35,7 @@ function buat_login() {
     input_password.name = "password";
     form.appendChild(input_password);
 
+    // tombol submit
     var tombol = document.createElement("input");
     tombol.type = "submit";
     tombol.className = "tombol_login";
